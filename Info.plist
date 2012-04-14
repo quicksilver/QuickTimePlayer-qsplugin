@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>QuickTime Player Plugin</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.qsapp.Quicksilver.QuickTimePlayerQSPlugin</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>QuickTime Player Plugin</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.9</string>
+	<key>CFBundleVersion</key>
+	<string>C</string>
+	<key>QSPlugIn</key>
+	<dict>
+		<key>author</key>
+		<string>Henning Jungkurth</string>
+		<key>categories</key>
+		<array>
+			<string>Applications</string>
+		</array>
+		<key>description</key>
+		<string>Recent Files for QuickTime Player</string>
+		<key>extendedDescription</key>
+		<string>At the moment, this plugin only provides the ability to right arrow into &lt;em&gt;QuickTime Player.app&lt;/em&gt; to view the recently playd files.</string>
+		<key>icon</key>
+		<string>com.apple.QuickTimePlayerX</string>
+		<key>relatedBundles</key>
+		<array>
+			<string>com.apple.QuickTimePlayerX</string>
+		</array>
+	</dict>
+	<key>QSRegistration</key>
+	<dict>
+		<key>QSBundleChildHandlers</key>
+		<dict>
+			<key>com.apple.QuickTimePlayerX</key>
+			<string>QSQuicktimePlugin_Source</string>
+		</dict>
+		<key>QSObjectSources</key>
+		<dict>
+			<key>QSQuicktimePlugin_Source</key>
+			<string>QSQuicktimePlugin_Source</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
