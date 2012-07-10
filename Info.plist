@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>QuickTime Player Plugin</string>
 	<key>CFBundleExecutable</key>
 	<string>QuickTime Player Plugin</string>
 	<key>CFBundleIdentifier</key>
@@ -15,9 +17,9 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.9</string>
+	<string>1.0.0</string>
 	<key>CFBundleVersion</key>
-	<string>C</string>
+	<string>F</string>
 	<key>QSPlugIn</key>
 	<dict>
 		<key>author</key>
@@ -29,7 +31,7 @@
 		<key>description</key>
 		<string>Recent Files for QuickTime Player</string>
 		<key>extendedDescription</key>
-		<string>At the moment, this plugin only provides the ability to right arrow into &lt;em&gt;QuickTime Player.app&lt;/em&gt; to view the recently playd files.</string>
+		<string>This plugin only provides the ability to right arrow into &lt;em&gt;QuickTime Player.app&lt;/em&gt; to view the recently played files.</string>
 		<key>icon</key>
 		<string>com.apple.QuickTimePlayerX</string>
 		<key>relatedBundles</key>
